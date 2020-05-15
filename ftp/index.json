@@ -1,0 +1,44 @@
+{
+  "title": "Introducción a FTP",
+  "description": "Aprende a instalar un servicio FTP para intercambiar ficheros entre un cliente y un servidor",
+  "difficulty": "Principiante",
+  "time": "30 minutos",
+  "details": {
+    "steps": [{
+      "title": "1 - ¿Qué es FTP?",
+      "text": "step1.md"
+    },
+	{
+	  "title": "2 - Preparación del servidor",
+	  "text": "step2.md"
+	},
+	{
+	  "title": "3 - Acceso al servidor desde un cliente",
+	  "text": "step3.md"
+	},
+	{
+	  "title": "4 - Configuración extra",
+	  "text": "step4.md"
+	}
+	],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+	  "code": "inicio.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+	"showdashboard": true,
+	"dashboards": [{"name": "Cliente FTP", "port": 80}],
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mEn esta terminal interactiva de Ubuntu puedes ejecutar comandos\u001b[m\r\n",
+	"uieditorpath": "/etc"
+	
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

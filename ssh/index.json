@@ -1,0 +1,40 @@
+{
+  "title": "Introducción al control remoto con SSH",
+  "description": "Aprende a instalar un servicio SSH para controlar remotamente un servidor de forma segura",
+  "difficulty": "Principiante",
+  "time": "30 minutos",
+  "details": {
+    "steps": [{
+      "title": "1 - ¿Qué es SSH?",
+      "text": "step1.md"
+    },
+	{
+	  "title": "2 - Preparación del servidor",
+	  "text": "step2.md"
+	},
+	{
+	  "title": "3 - Acceso al servidor desde un cliente",
+	  "text": "step3.md"
+	},
+	{
+	  "title": "4 - Intercambio de archivos entre cliente y servidor",
+	  "text": "step4.md"
+	}
+	],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-terminal",
+    "uimessage1": "\u001b[32mEn esta terminal interactiva de Ubuntu puedes ejecutar comandos\u001b[m\r\n"
+	
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Introducción a Portainer",
+  "description": "Aprende a instalar una interfaz gráfica para la gestión de Docker y su funcionamiento básico",
+  "difficulty": "Principiante",
+  "time": "30 minutos",
+  "details": {
+    "steps": [{
+      "title": "1 - ¿Qué es Portainer?",
+      "text": "step1.md"
+    },
+	{
+	  "title": "2 - Instalación de Portainer",
+	  "text": "step2.md"
+	},
+	{
+	  "title": "3 - Gestión de imágenes",
+	  "text": "step3.md"
+	},
+	{
+	  "title": "4 - Gestión de contenedores",
+	  "text": "step4.md"
+	},
+	{
+	  "title": "5 - Gestión de redes",
+	  "text": "step5.md"
+	},
+	{
+	  "title": "6 - Gestión de almacenamiento",
+	  "text": "step6.md"
+	}
+	],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+	"showdashboard": true,
+	"dashboard": "Portainer",
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mEn esta terminal interactiva de Bash puedes ejecutar comandos\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "docker",
+	"port": 9000
+  }
+}
